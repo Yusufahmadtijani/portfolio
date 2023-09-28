@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+<head>
+  <title>YUSUF</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav  id="navbar" class="navbar navbar-default">
+    <img src="c:\Users\Admin\Downloads\202207__\Typing_computer_screen_reflection.jpg" alt="logo" style="max-width: 600px;height: 50px;background-color: rgb(160, 95, 95);float: left;" >
+    <a id="kama" class="navbar-brand" href="#"><b>YUSUF AHMAD,</b></a>
+    <ul id="nav-lists" class="nav navbar-nav">
+      <li><a href="yusuff.html"><b>Home</b></a></li>
+      <li><a href="project.html"><b>Projects</b></a></li>
+      <li><a href="Blogs.html"><b>Blogs</b></a></li>
+      <li><a href="contact.html"><b>Contact</b></a></li>
+    </ul>
+    <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+      <i id="hamb" class="fa fa-bars"></i>
+    </button>
+
+  </nav>
+  
+  <div id="mobile-menu" class="mobile-menu">
+    <ul>
+      <li><a href="yusuff.html"><b>Home</b></a></li>
+      <li><a href="project.html"><b>Projects</b></a></li>
+      <li><a href="Blogs.html"><b>Blogs</b></a></li>
+      <li><a href="contact.html"><b>Contact</b></a></li>
+    </ul>
+    </div>
+
+    <div class="aba">
+     <div id="ff"></div> 
+        <h1><b>Contact Me</b></h1>
+        <p class="mm"> You are free to message me here.</p>
+        <form>
+            <div class="all-forms">
+                <div id="yy"> 
+                    <input type="text" class="form-control" placeholder="Name" name="name">
+                </div>
+                <div class="ss">
+                <input type="email" class="form-control" placeholder="Email Address" name="email">
+                </div>
+                <div class="sam">
+                <input type="text" class="form-control" placeholder="Subject" name="Subject">
+                </div>
+                <div class="leo">
+                <textarea class="form-control" id cols="14" rows="4" placeholder="Your message" name="Your Message"></textarea>
+                </div>
+                <button type="submit" id="submittt" class="btn btn-outline dark">Submit message</button>
+            </div>
+        </form>
+            </div>
+            <script>
+              document.addEventListener("DOMContentLoaded", function () {
+                var currentPage = window.location.href;
+                
+        
+                var navLinks = document.querySelectorAll("nav a");
+        
+                navLinks.forEach(function (link) {
+                  // Check if the link's href matches the current page's URL
+                  if (currentPage === link.href) {
+                    link.classList.add("clicked");
+                  }
+                });
+              });
+            </script>
+           <script>
+              $(document).ready(function () {
+                $("#mobile-menu-toggle").click(function () {
+                  $("#mobile-menu").slideToggle();
+                });
+              });
+            </script>    
+     </body>
+     </html>
