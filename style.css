@@ -1,3 +1,63 @@
+
+.odd {
+    background-color: lightseagreen;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-top: 250px;
+    padding: 5px 25px;
+    width: 320px;
+  }
+
+  .rrr {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+  }
+  .rrr {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+  }
+  .no {
+    height: 23px;
+    margin: 7px 0;
+    width: 25px;
+  }
+  .yes {
+    height: 23px;
+    margin: 7px 0;
+    width: 25px;
+  }
+  .maybe {
+    height: 23px;
+    margin: 7px 0;
+    width: 25px;
+  }
+
+  .really {
+    height: 23px;
+    margin: 7px 0;
+    width: 25p
+  }
+
+  .firsthome {
+    font-family: sans-serif;
+    margin: 0px 0px 0px 140px;
+    width: 1000px;
+  }
+
+  .firsthome h5{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .form-control{
+    margin: 10px 0px 10px 0px;
+  }
+
 #yy {
     margin-bottom: 20px;
     
@@ -15,13 +75,8 @@
 
 body {
     width: 100%;
-    
 }
 
-
-#navbar{
-    width: 100%;
-}
 
 #navbar a{
     color: black;
@@ -30,6 +85,7 @@ body {
 
 #nav-lists {
     margin: 0px 0px 0px 400px;
+    display: block;
 }
 
 #nav-lists li a {
@@ -76,8 +132,8 @@ body {
 
 
 .up {
-    height: 110px;
     margin-top: 90px;
+    margin-bottom: 20px;
 }
 
 .fluid {
@@ -93,9 +149,22 @@ body {
 }
 
 .ll {
-
+    width: 1000px;
     text-align: center;
-    margin: 0px 0px 0px 200px;
+    margin: 0px 0px 0px 180px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+
+.ll h2{
+    padding-top: 60px;
+    margin-left: 80px;
+}
+
+.ll p{
+    margin: 20px 50px 0px 50px;
+    width: 900px;
 }
 
 .qq {
@@ -119,9 +188,6 @@ body {
     font-weight: 600;
 }
 
-.all-forms {
-    width: 1095px;
-}
 
 #ff {
     margin-top: 70px;
@@ -151,10 +217,40 @@ body {
 }
 
 #navbar a.clicked {
-    padding: 15px 18px 15px 18px;
-    background-color: blue;
-    border-radius: 15px;
-    color: white;
+   padding-bottom: 10px;
+   border: 2px solid black;
+    
+}
+
+#skills li{
+    margin: 0px 0px 0px 30px;
+}
+
+.ig{
+    width: 20px;
+    height: 20px;
+}
+
+.ban{
+    margin-top: 100px;
+    background-color: cyan;
+    height: 300px;
+}
+
+
+.ban h1{
+    margin: 0px 0px 0px 100px;
+    padding-top: 50px;
+}
+
+.linko{
+    margin: 100px 0px 0px 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.linko a{
+    margin: 0px 20px 0px 0px;
 }
 
 @media (max-width: 768px) {
@@ -206,7 +302,6 @@ body {
 
     .ll {
         width: 200px;
-        text-align: center;
         margin: 0px 0px 0px 0px;
     }
 
@@ -232,22 +327,23 @@ body {
         margin-inline-end: 500px;
     }
 
-    .all-forms {
-        width: 400px;
-    }
     #yy {
         margin-bottom: 20px;
+        width: 350px;
         
     }
     .ss {
         margin-bottom: 20px;
+        width: 350px;
     }
     .leo {
         margin-bottom: 20px;
+        width: 350px;
     }
 
     .sam {
         margin-bottom: 20px;
+        width: 350px;
     }
     .aa {
         color: darkgreen;
@@ -260,5 +356,94 @@ body {
         font-weight: 700;
     }
 
+  .aba {
+    padding-right: 50px;
+    float: right;
+    font-size: 20px;
+  }
+
+  .odd {
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-top: 250px;
+    padding: 5px 25px;
+    width: 320px;
+  }
+
+  .rrr {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+  }
+  .rrr {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+  }
+  .no {
+    height: 23px;
+    margin: 7px 0;
+    width: 25px;
+  }
+  .yes {
+    height: 23px;
+    margin: 7px 0;
+    width: 25px;
+  }
+  .maybe {
+    height: 23px;
+    margin: 7px 0;
+    width: 25px;
+  }
+
+  .really {
+    height: 23px;
+    margin: 7px 0;
+    width: 25p
+  }
+
+  .firsthome {
+    font-family: sans-serif;
+    margin: 50px 0;
+    width: 300px;
+    float: right;
+  }
+
+  .ban {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;   
+    font-family: sans-serif;
+    height: 400px;
+    margin: 1000px 0;
+    max-height: 400px;
+    width: 100%;
+}
+.ray {
+    margin: 5px 0;
+    
+    text-align: center;
+    width: 350px;
+}
+.kaka {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 5px;
+}
+
+.ig {
+    height: 18px;
+    width: 18px;
+}
+
+.bb {
+    color: black;
+    font-size: xx-large;
     
 }
+.aa {
+    color: rgb(95, 129, 160);
+}
+}
+
