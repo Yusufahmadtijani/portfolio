@@ -1,5 +1,5 @@
 .odd {
-    background-color: aliceblue;
+    background-color: darkgreen;
     margin-bottom: 10px;
     margin-left: 30%;
     margin-top: 250px;
@@ -7,7 +7,21 @@
     width: 520px;
     height: 500px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 50px;
 }
+  
+
+.submit-btn {
+background-color: black;
+border-radius: 25px;
+border: none;
+width: 200px;
+padding: 10px 5px 10px 5px;
+margin: 20px 0px 0px 420px;
+color: darkgreen;
+}
+
 
 .rrr {
     display: flex;
@@ -15,7 +29,17 @@
     margin: 15px 0;
     margin-left: 20px;
 }
+    #submittt {      
+background-color: black;
+border-radius: 25px;
+border: none;
+width: 200px;
+padding: 10px 5px 5px 10px;
+margin: 20px 100px 0px 20px;
+color: darkgreen;
 
+}
+ 
 .rrr img {
     height: 22px;
     margin: -3px 5px 0px 0px;
@@ -43,12 +67,14 @@
 
 .abat {
     padding-left: 290px;
+    padding-top: 50px;
 }
 
 .firsthome {
     font-family: sans-serif;
     margin: 0px 0px 0px 140px;
     width: 1000px;
+   
 }
 
 .firsthome h5 {
@@ -68,9 +94,6 @@
     font-family: sans-serif;
     margin: 0px 0px 0px 140px;
     width: 1200px;
-
-
-
 
 }
 
@@ -100,9 +123,13 @@ body {
     width: 100%;
 }
 
+#navbar{
+    background-color: darkgreen;
+
+}
 
 #navbar a {
-    color: black;
+    color: white;
 }
 
 
@@ -157,7 +184,7 @@ body {
 .aa {
     font-size: 48px;
     font-weight: 700;
-    color: rgb(0, 153, 255);
+    color: darkgreen;
 }
 
 .rr {
@@ -212,8 +239,28 @@ body {
     margin: 0px 0px 0px 500px;
 }
 
+.tab-contents{
+    margin: 80px 0px 0px 0px;
+
+}
+
+.tab-contents h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.tab-contents ul{
+    margin: 0px 50px 0px 0px;
+}
 .tab-contents ul li {
     list-style-type: none;
+    margin: 10px 0px 10px 0px;
+    font-weight: 700;
+}
+
+.osaka{
+    font-weight: 500;
 }
 
 .about-col-2 {
@@ -262,9 +309,6 @@ body {
 
 }
 
-#skills li {
-    margin: 0px 0px 0px 30px;
-}
 
 .ig {
     width: 20px;
@@ -295,10 +339,32 @@ body {
 
 .all-forms input {
     width: 1100px;
+    border-radius: 50px;
 }
 
 .all-forms textarea {
     width: 1100px;
+}
+
+.son{
+    display: flex;
+    margin: 70px 0px 0px 300px;
+}
+
+.son-sub{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+}
+
+.son h2{
+    font-size: 15px;
+    margin: -55px 5px 0px 0px;
+}
+
+.son img{
+    width: 20px;
+    height: 20px;
+  
 }
 
 @media (max-width: 768px) {
@@ -348,6 +414,9 @@ body {
         display: block;
         font-size: 20px;
         font-weight: 700;
+        color: black;
+        
+        
     }
 
     .aba {
@@ -367,8 +436,6 @@ body {
         width: 85%;
         margin: 0px 15px 30px 25px;
     }
-
-
 
 
     .ll {
@@ -391,16 +458,16 @@ body {
     #lmao {
         width: 350px;
     }
+    #lmao p {
+        font-weight: 400px;
+    }
 
    #skills ul{
-    margin: 0px 0px 0px 0px; 
+    margin: 0px 40px 0px 0px; 
    }
     #skills li {
         margin: 0px 0px 0px 0px;
     }
-
-
-
 
     .rr {
         display: none;
@@ -444,7 +511,6 @@ body {
         color: aqua;
     }
 
-
     .odd {
         background-color: cornflowerblue;
         margin-bottom: 10px;
@@ -452,6 +518,8 @@ body {
         margin-top: 250px;
         width: 95%;
         border-radius: 20px;
+        color: black;
+        
     }
 
 
@@ -498,6 +566,7 @@ body {
         margin: 200px 0px 0px 0px;
         max-height: 400px;
         width: 100%;
+
     }
 
     .ray {
@@ -568,6 +637,7 @@ body {
     }
     .abat {
        padding-left: 50px;
+       padding-top: 50px;
         width: 290px;
     }
     .leo {
@@ -590,6 +660,36 @@ body {
         width: 200px;
         padding: 10px 5px 10px 5px;
         margin: 20px 0px 0px 50px;
+        color: black;
     }
+
+    
+#navbar{
+    background-color: cornflowerblue;
+
+}
+
+       
+.son{
+    display: flex;
+    margin: 70px 0px 0px 0px;
+}
+
+.son-sub{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+}
+
+.son h2{
+    font-size: 15px;
+    margin: -55px 5px 0px 0px;
+}
+
+.son img{
+    width: 20px;
+    height: 20px;
+  
+}
+
     
 }
