@@ -1,3 +1,9 @@
+
+@keyframes example {
+    from {background-color: white}
+    to {background-color: cornflowerblue;}
+  }
+
 .odd {
     background-color: darkorchid;
     margin-bottom: 10px;
@@ -10,18 +16,17 @@
     color: white;
     border-radius: 50px;
     border-bottom-left-radius: 60px;
-     
+
 }
-  
 
 .submit-btn {
-background-color: black;
-border-radius: 25px;
-border: none;
-width: 200px;
-padding: 10px 5px 10px 5px;
-margin: 20px 0px 0px 420px;
-color: darkorchid;
+    background-color: black;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    padding: 10px 5px 10px 5px;
+    margin: 20px 0px 0px 420px;
+    color: darkorchid;
 }
 
 
@@ -31,17 +36,18 @@ color: darkorchid;
     margin: 15px 0;
     margin-left: 20px;
 }
-    #submittt {      
-background-color: black;
-border-radius: 25px;
-border: none;
-width: 200px;
-padding: 10px 5px 5px 10px;
-margin: 20px 100px 0px 20px;
-color: darkorchid;
+
+#submittt {
+    background-color: black;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    padding: 10px 5px 5px 10px;
+    margin: 20px 100px 0px 20px;
+    color: darkorchid;
 
 }
- 
+
 .rrr img {
     height: 22px;
     margin: -3px 5px 0px 0px;
@@ -76,7 +82,7 @@ color: darkorchid;
     font-family: sans-serif;
     margin: 0px 0px 0px 140px;
     width: 1000px;
-   
+
 }
 
 .firsthome h5 {
@@ -125,7 +131,7 @@ body {
     width: 100%;
 }
 
-#navbar{
+#navbar {
     background-color: darkorchid;
 
 }
@@ -133,8 +139,6 @@ body {
 #navbar a {
     color: white;
 }
-    
-
 
 #nav-lists {
     margin: 0px 0px 0px 400px;
@@ -144,7 +148,6 @@ body {
 #nav-lists li a {
     margin: 0px 10px 0px 10px;
 }
-
 
 #kama {
     margin: 20px 0px 0px 200px;
@@ -224,8 +227,8 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     padding-bottom: 50px;
     border-radius: 19px;
-    
-    
+
+
 }
 
 .ll h2 {
@@ -245,28 +248,29 @@ body {
     margin: 0px 0px 0px 500px;
 }
 
-.tab-contents{
+.tab-contents {
     margin: 80px 0px 0px 0px;
-   
+
 
 }
 
-.tab-contents h1{
+.tab-contents h1 {
     font-weight: 700;
     margin-bottom: 20px;
 
 }
 
-.tab-contents ul{
+.tab-contents ul {
     margin: 0px 50px 0px 0px;
 }
+
 .tab-contents ul li {
     list-style-type: none;
     margin: 10px 0px 10px 0px;
     font-weight: 700;
 }
 
-.osaka{
+.osaka {
     font-weight: 500;
 }
 
@@ -326,11 +330,16 @@ body {
     margin-top: 70px;
     background-color: white;
     height: 300px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
 
 }
 
+
 .linko {
-    margin: 100px 0px 0px 800px;
+    margin: -100px 0px 0px 880px;
     display: flex;
     flex-direction: row;
 }
@@ -340,7 +349,7 @@ body {
 }
 
 
-#contact-form{
+#contact-form {
     margin: 0px 0px 0px 120px;
 }
 
@@ -353,29 +362,40 @@ body {
     width: 1100px;
 }
 
-.son{
+.son {
     display: flex;
     margin: 70px 0px 0px 300px;
+      width: 100px;
 }
 
-.son-sub{
+.son-sub {
     display: flex;
     margin: 0px 10px 0px 10px;
 }
 
-.son h2{
+.son h2 {
     font-size: 15px;
     margin: -55px 5px 0px 0px;
 }
 
-.son img{
+.son img {
     width: 20px;
     height: 20px;
   
+
+}
+
+.hola {
+    width: 100px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    border-radius: 20px;
 }
 
 @media (max-width: 768px) {
-    .milo{
+    .milo {
         width: 90%;
         margin: 50px 0px 50px 19px;
     }
@@ -388,9 +408,9 @@ body {
     }
 
     .mobile-menu a {
-        font-size: 18px;
-        color: black;
-        margin: 10px 0px 10px 0px;
+        font-size: 15px;
+        color: white;
+        margin: 10px 0px 10px -10px;
     }
 
     .mobile-menu ul {
@@ -412,18 +432,16 @@ body {
     }
 
     #kama {
-        margin: 0px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
     }
 
     .mobile-menu-toggle {
-        margin: 10px 0px 0px 0px;
-        padding-left: 120px;
+        margin: 30px 0px 0px 0px;
+        padding-left: 14%;
         display: block;
         font-size: 20px;
         font-weight: 700;
-        color: black;
-        
-        
+        color: white;
     }
 
     .aba {
@@ -434,12 +452,12 @@ body {
         border-radius: 20px;
     }
 
-    .abah h1{
+    .abah h1 {
         font-size: 25px;
         font-weight: 800;
     }
 
-    .abah p{
+    .abah p {
         width: 85%;
         margin: 0px 15px 30px 25px;
     }
@@ -465,13 +483,15 @@ body {
     #lmao {
         width: 350px;
     }
+
     #lmao p {
         font-weight: 400px;
     }
 
-   #skills ul{
-    margin: 0px 40px 0px 0px; 
-   }
+    #skills ul {
+        margin: 0px 40px 0px 0px;
+    }
+
     #skills li {
         margin: 0px 0px 0px 0px;
     }
@@ -526,11 +546,11 @@ body {
         width: 95%;
         border-radius: 20px;
         color: black;
-        
+
     }
 
 
-    .odd h2{
+    .odd h2 {
         margin: 20px 0px 0px 80px;
     }
 
@@ -605,10 +625,10 @@ body {
         color: rgb(95, 129, 160);
     }
 
-    #contact-form{
+    #contact-form {
         margin: 0px 0px 0px 40px;
     }
-    
+
     .all-forms input {
         width: 90%;
         margin: 8px 0px 8px 0px;
@@ -618,7 +638,7 @@ body {
     .all-forms textarea {
         width: 90%;
         margin: 10px 0px 10px 0px;
-        border-radius: 10px;    
+        border-radius: 10px;
     }
 
     .firsthome input {
@@ -630,7 +650,7 @@ body {
     .firsthome textarea {
         width: 90%;
         margin: 10px 0px 10px 0px;
-        border-radius: 10px;    
+        border-radius: 10px;
     }
 
     .linko {
@@ -643,17 +663,19 @@ body {
     .linko a {
         margin: 0px 20px 0px 0px;
     }
+
     .abat {
-       padding-left: 50px;
-       padding-top: 50px;
+        padding-left: 50px;
+        padding-top: 50px;
         width: 290px;
     }
+
     .leo {
         padding-right: 100%;
         margin-left: 70;
     }
 
-    #submittt{
+    #submittt {
         background-color: cornflowerblue;
         border-radius: 25px;
         width: 200px;
@@ -661,7 +683,7 @@ body {
         margin: 20px 0px 0px -20px;
     }
 
-    .submit-btn{
+    .submit-btn {
         background-color: cornflowerblue;
         border-radius: 25px;
         border: none;
@@ -671,33 +693,38 @@ body {
         color: black;
     }
 
+
+    #navbar {
+        background-color: cornflowerblue;
+
+    }
+
+
+    .son {
+        display: flex;
+        margin: 70px 0px 0px 0px;
+    }
+
+    .son-sub {
+        display: flex;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .son h2 {
+        font-size: 15px;
+        margin: -55px 5px 0px 0px;
+    }
+
+    .son img {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .hola {
+        margin-left: 38%;
+    }
     
-#navbar{
-    background-color: cornflowerblue;
 
-}
 
-       
-.son{
-    display: flex;
-    margin: 70px 0px 0px 0px;
-}
-
-.son-sub{
-    display: flex;
-    margin: 0px 10px 0px 10px;
-}
-
-.son h2{
-    font-size: 15px;
-    margin: -55px 5px 0px 0px;
-}
-
-.son img{
-    width: 20px;
-    height: 20px;
-  
-}
-
-    
 }
