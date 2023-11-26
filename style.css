@@ -196,9 +196,7 @@ body {
     color: rgb(0, 153, 255);
     animation: zoomText 2s ease-in-out infinite; /* Adjust the duration and other properties as needed */
       }
-      
-    
-
+ 
 #nav-list {
     width: 40px;
 }
