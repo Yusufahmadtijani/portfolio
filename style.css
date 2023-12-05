@@ -176,7 +176,7 @@ body {
 }
 
  #navbar img {
-    animation: rotate 4s linear infinite;
+   
  }
 #navbar a {
     color: white;
@@ -278,7 +278,7 @@ body {
 .ll h2 {
     padding-top: 60px;
     margin-left: 80px;
-    animation: zoomText 2s ease-in-out infinite;
+    
 }
 
 .ll p {
@@ -302,7 +302,7 @@ body {
 .tab-contents h1 {
     font-weight: 700;
     margin-bottom: 20px;
-    animation: zoomText 2s ease-in-out infinite;
+    
 
 }
 
@@ -752,7 +752,7 @@ body {
         background-color: cornflowerblue;
 
     }
-
+    
 
     .son {
         display: flex;
