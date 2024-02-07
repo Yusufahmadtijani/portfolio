@@ -176,7 +176,7 @@ body {
 }
 
  #navbar img {
-   
+    animation: rotate 4s linear infinite;
  }
 #navbar a {
     color: white;
@@ -302,8 +302,6 @@ body {
 .tab-contents h1 {
     font-weight: 700;
     margin-bottom: 20px;
-    
-
 }
 
 .tab-contents ul {
